@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/daohuucuong2152023-arch/nodejs_blog#readme",
+  "bugs": {
+    "url": "https://github.com/daohuucuong2152023-arch/nodejs_blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daohuucuong2152023-arch/nodejs_blog.git"
+  },
+  "license": "ISC",
+  "author": "cuong",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
